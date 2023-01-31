@@ -5,5 +5,5 @@ function scrolltop() {
 let contact = document.getElementById('contactForm');
 contact.addEventListener('submit', function (e) {
     e.preventDefault();
-    alert(`Sorry Request cannot be accepted due to some technical errors`);
+    alert(`Pedido de desculpas não pode ser aceito devido a alguns erros técnicos`);
 })
